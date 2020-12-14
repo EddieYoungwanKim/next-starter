@@ -37,9 +37,19 @@
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1"
   },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "engines": {
+    "node": ">=14.15.1",
+    "npm": ">=6.14.8",
+    "yarn": ">=1.22.10"
   }
 }
